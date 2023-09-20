@@ -415,13 +415,13 @@ class Main:
 		#print(" \033[1;36m[5] 2011-14 Cloning")
 		#print(" \033[1;33m[E] Exit Programming\n")
 		JUBA =input(" Choose : ")
-		if JUBA in ["1", "01"]:
+		if JUBA in ["4", "04"]:
 			File()
 		if JUBA in ["2", "02"]:
 			Public()
 		if JUBA in ["3", "03"]:
 			os.system("python Dump.py")
-		if JUBA in ["4", "04"]:
+		if JUBA in ["1", "01"]:
 			self.old()
 		if JUBA in ["5", "05"]:
 			self.old2()
