@@ -2,7 +2,7 @@ print('')
 print('')
 token=input(f'\033[1;32m[+] TOKEN  : ')
 print('')
-id = input('\033[1;32m[+] ID : ')
+ID=input('\033[1;32m[+] ID : ')
 print('')
 def heroes():
     import time
